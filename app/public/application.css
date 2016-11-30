@@ -1,12 +1,11 @@
-
 body {
   margin: 10px;
 }
+
 .container {
   margin-top: 20px;
   background: url('/background_robot.jpg') no-repeat right;
   background-size: cover;
-
 }
 
 h1 {
@@ -28,3 +27,8 @@ h1 {
   left: 30px;
 }
 
+@media screen and (max-width: 450px) {
+  .wrapper {
+    width: 95%;
+  }
+}
