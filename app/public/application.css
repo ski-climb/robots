@@ -4,7 +4,7 @@ body {
 }
 .container {
   margin-top: 20px;
-  background: url('/background_robot.jpg') no-repeat center;
+  background: url('/background_robot.jpg') no-repeat right;
   background-size: cover;
 
 }
