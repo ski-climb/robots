@@ -1,1 +1,24 @@
 
+body {
+  margin: 10px;
+}
+.container {
+  margin-top: 20px;
+  background: url('/background_robot.jpg') no-repeat center;
+  background-size: cover;
+
+}
+
+h1 {
+  text-align: center;
+}
+
+.wrapper {
+  width: 50%;
+  margin: 20px auto;
+}
+
+.delete-form {
+  display: inline-block;
+}
+

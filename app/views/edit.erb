@@ -1,0 +1,22 @@
+<h1>Update your robot</h1>
+
+<div class="wrapper">
+  <form method="POST" action="/robots/<%= @robot.id %>">
+    <input type="hidden" name="_method" value="PUT" />
+    <div class="form-group">
+      <input class="form-control" name="robot[name]" type="text" value="<%= @robot.name %>"/>
+    </div>
+    <div class="form-group">
+      <input class="form-control" name="robot[city]" type="text" value="<%= @robot.city %>"/>
+    </div>
+    <div class="form-group">
+      <input class="form-control" name="robot[state]" type="text" value="<%= @robot.state %>"/>
+    </div>
+    <div class="form-group">
+      <input class="form-control" name="robot[department]" type="text" value="<%= @robot.department %>" />
+    </div>
+    <input class="form-control btn btn-primary" type="submit" value="Save Robot" />
+  </form>
+  <a href="/robots/<%= @robot.id %>" class="form-control btn btn-danger">Cancel</a>
+</div>
+
