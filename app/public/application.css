@@ -22,3 +22,9 @@ h1 {
   display: inline-block;
 }
 
+.home-robot {
+  position: absolute;
+  top: 25px;
+  left: 30px;
+}
+
