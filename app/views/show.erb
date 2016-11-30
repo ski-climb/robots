@@ -7,11 +7,12 @@
     <li class="list-group-item">DEPARTMENT: <em><%= @robot.department %></em></li>
   </ul>
   <div class="list-group">
-    <a class="btn btn-warning" href="/robots/<%= @robot.id %>/edit"><i class="glyphicon glyphicon-edit"></i> Edit</a>
+    <a class="btn btn-info" href="/robots/<%= @robot.id %>/edit"><i class="glyphicon glyphicon-edit"></i> Edit</a>
     <form class="delete-form" action="/robots/<%= @robot.id %>" method="POST">
       <input type="hidden" name="_method" value="DELETE" />
       <input type="submit" value="Delete" class="btn btn-danger" />
     </form>
+    <a href="/robots" class="btn btn-warning">Cancel</a>
   </div>
 </div>
 
